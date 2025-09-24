@@ -105,23 +105,8 @@ public class my_code {
     o1.setSukunimi("Mainio");
     o1.setOpiskelijanumero(123);
     o1.setOsoite("Kauppakatu 12");
-    
+    System.out.println(o1.toString());
 
     }
 }
-/*Testaa pääohjelmassa seuraavasti:
-- Luo Opiskelija-olio käyttäen oletusmuodostinta ja tulosta sen tiedot käyttäen toString -metodia.
-- Luo Opiskelija-olio käyttäen muodostinta, jossa annetaan kakkille attribuuteille tiedot(Jussi Juonio, 123, Keskuskuja 15) ja tulosta sen tiedot käyttäen toString -metodia.
-- Tulosta jälkimmäisen Opiskelija-olion attribuuttien arvot kukin omalle rivilleen. Käytä get-metodeja.
-- Aseta ensimmäinen Opiskelija-olion etunimeksi "Matti", sukunimeksi "Mainio" ja osoitteeksi "Kauppakatu 12". Käytä set-metodeja.
-- Tulosta lopuksi ensimmäisen Opiskelija-olion tiedot. Käytä toString -metodia.
 
-null,null,0,null
-Jussi,Juonio,123,Keskuskuja 15
-Jussi
-Juonio
-123
-Keskuskuja 15
-Matti,Mainio,123,Kauppakatu 12
-
-*/
