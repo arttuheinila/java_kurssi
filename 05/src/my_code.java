@@ -32,6 +32,7 @@ Matti,Mainio,123,Kauppakatu 12
 
 public class my_code {
     public static void main(String[] args) {
+        /*
         class Opiskelija {
             String etunimi;
             String sukunimi;
@@ -95,8 +96,11 @@ public class my_code {
             return etunimi + ", " + sukunimi + ", " + opiskelijanumero + ", " + osoite;
         }
     }
+    */
     Opiskelija o1 = new Opiskelija(); 
+    System.out.println(o1.toString());
     Opiskelija o2 = new Opiskelija("Jussi", "Juonio", 123, "Keskuskuja 15");
+    System.out.println(o2.toString());
     System.out.println(o2.getEtunimi());
     System.out.println(o2.getSukunimi());
     System.out.println(o2.getOpiskelijanumero());
