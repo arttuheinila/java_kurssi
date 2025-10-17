@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests" time="0.056" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/test-classes:/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/classes:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.0-RC1/junit-jupiter-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/omistaja/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0-RC1/junit-platform-commons-1.11.0-RC1.jar:/home/omistaja/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0-RC1/junit-jupiter-params-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0-RC1/junit-jupiter-engine-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0-RC1/junit-platform-engine-1.11.0-RC1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-24.0.2-oracle-x64/lib"/>
+    <property name="sun.java.command" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/surefire/surefirebooter-20251017155252238_3.jar /home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/surefire 2025-10-17T15-52-52_168-jvmRun1 surefire-20251017155252238_1tmp surefire_0-20251017155252238_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/test-classes:/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/classes:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.0-RC1/junit-jupiter-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/omistaja/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0-RC1/junit-platform-commons-1.11.0-RC1.jar:/home/omistaja/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0-RC1/junit-jupiter-params-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0-RC1/junit-jupiter-engine-5.11.0-RC1.jar:/home/omistaja/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0-RC1/junit-platform-engine-1.11.0-RC1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/omistaja"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-24.0.2-oracle-x64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20/target/surefire/surefirebooter-20251017155252238_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="omistaja"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-85-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/omistaja/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="/home/omistaja/Documents/Working on/JavaTehtavat/JavaTehtavat/20"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testQualcommSpeakerVolumeSetting" classname="tests" time="0.019"/>
+  <testcase name="testSetAndGetVolume" classname="tests" time="0.001"/>
+  <testcase name="testUnMuteWhenAlreadyUnmuted" classname="tests" time="0.002"/>
+  <testcase name="testSamsungMicVolumeSetting" classname="tests" time="0.001"/>
+  <testcase name="testSamsungMicMicOnWithValidVolume" classname="tests" time="0.001"/>
+  <testcase name="testQualcommSpeakerUnMuteWithExcessiveVolume" classname="tests" time="0.001"/>
+  <testcase name="testMicOnWithValidVolume" classname="tests" time="0.001"/>
+  <testcase name="testQualcommSpeakerUnMuteWithValidVolume" classname="tests" time="0.001"/>
+  <testcase name="testMicOnAfterVolumeChange" classname="tests" time="0.001"/>
+  <testcase name="testMainMethod" classname="tests" time="0.001"/>
+  <testcase name="testUnMuteWithValidVolume" classname="tests" time="0.0"/>
+  <testcase name="testMicOnWithExcessiveVolume" classname="tests" time="0.0"/>
+  <testcase name="test1" classname="tests" time="0.0"/>
+  <testcase name="testMQualcommSpeakeruteFunctionality" classname="tests" time="0.0"/>
+  <testcase name="testQualcommSpeakerUnMuteWhenAlreadyUnmuted" classname="tests" time="0.0"/>
+  <testcase name="testVolumeSetting" classname="tests" time="0.0"/>
+  <testcase name="testSamsungMicMicOnWithExcessiveVolume" classname="tests" time="0.0"/>
+  <testcase name="testUnMuteWithExcessiveVolume" classname="tests" time="0.0"/>
+  <testcase name="testMicOff" classname="tests" time="0.001"/>
+  <testcase name="testMuteFunctionality" classname="tests" time="0.001"/>
+  <testcase name="testSamsungMicMicOff" classname="tests" time="0.0"/>
+</testsuite>
