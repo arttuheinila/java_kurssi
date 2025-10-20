@@ -48,6 +48,25 @@ unknown toyota corolla 2000
 
 public class my_code {
     public static void main(String[] args) {
+        // 1. Oletusmuodostin
+        Auto auto1 = new Auto();
+        System.out.println(auto1.toString());
 
+        // 2. Muodostin, jossa vain rekisterinumero
+        Auto auto2 = new Auto("abc-123");
+        System.out.println(auto2.toString());
+
+        // 3. Muodostin, jossa kaikki tiedot
+        Auto auto3 = new Auto("xyz-987", "volvo", "v70", 1990);
+        System.out.println(auto3.toString());
+
+        // 4. Oletusmuodostin + kysyTiedot
+        Auto auto4 = new Auto();
+        auto4.kysyTiedot();
+        System.out.println(auto4.toString());
+
+        // 5. Virheelliset tiedot
+        Auto auto5 = new Auto("mnbc*123", "toyota", "corolla", 2090);
+        System.out.println(auto5.toString());
     }
 }
